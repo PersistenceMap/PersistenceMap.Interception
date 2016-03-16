@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\PersistenceMap.Interception.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>..\PersistenceMap.snk</AssemblyOriginatorKeyFile>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\PersistenceMap.Interception.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PersistenceMap, Version=0.5.2.0, Culture=neutral, PublicKeyToken=086b003f83e44453, processorArchitecture=MSIL">
