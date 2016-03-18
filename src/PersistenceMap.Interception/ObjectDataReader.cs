@@ -45,32 +45,32 @@ namespace PersistenceMap.Interception
 
         public virtual bool GetBoolean(int i)
         {
-            return (bool)GetValue(i);
+            return (bool) GetValue(i);
         }
 
         public virtual byte GetByte(int i)
         {
-            return (byte)GetValue(i);
+            return (byte) GetValue(i);
         }
 
         public virtual char GetChar(int i)
         {
-            return (char)GetValue(i);
+            return (char) GetValue(i);
         }
 
         public virtual DateTime GetDateTime(int i)
         {
-            return (DateTime)GetValue(i);
+            return (DateTime) GetValue(i);
         }
 
         public virtual decimal GetDecimal(int i)
         {
-            return (decimal)GetValue(i);
+            return (decimal) GetValue(i);
         }
 
         public virtual double GetDouble(int i)
         {
-            return (double)GetValue(i);
+            return (double) GetValue(i);
         }
 
         public virtual Type GetFieldType(int i)
@@ -80,32 +80,32 @@ namespace PersistenceMap.Interception
 
         public virtual float GetFloat(int i)
         {
-            return (float)GetValue(i);
+            return (float) GetValue(i);
         }
 
         public virtual Guid GetGuid(int i)
         {
-            return (Guid)GetValue(i);
+            return (Guid) GetValue(i);
         }
 
         public virtual short GetInt16(int i)
         {
-            return (short)GetValue(i);
+            return (short) GetValue(i);
         }
 
         public virtual int GetInt32(int i)
         {
-            return (int)GetValue(i);
+            return (int) GetValue(i);
         }
 
         public virtual long GetInt64(int i)
         {
-            return (long)GetValue(i);
+            return (long) GetValue(i);
         }
 
         public virtual string GetString(int i)
         {
-            return (string)GetValue(i);
+            return (string) GetValue(i);
         }
 
         public virtual bool IsDBNull(int i)
@@ -188,7 +188,7 @@ namespace PersistenceMap.Interception
 
         public virtual bool NextResult()
         {
-            throw new NotImplementedException();
+            return false;
         }
 
         public virtual int Depth
