@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceMap.Interception
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{730A0E8A-8666-44C8-A643-8E38DB54DE76}"
 	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+		appveyor.yml = appveyor.yml
 		src\GlobalAssemblyInfo.cs = src\GlobalAssemblyInfo.cs
 		src\PersistenceMap.Interception.nuspec = src\PersistenceMap.Interception.nuspec
 		src\PersistenceMap.snk = src\PersistenceMap.snk

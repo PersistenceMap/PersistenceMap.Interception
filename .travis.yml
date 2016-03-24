@@ -9,7 +9,7 @@ notifications:
 #      - one@example.com
 #      - other@example.com
     on_success: never #[always|never|change] # default: change
-    on_failure: always #[always|never|change] # default: always
+    on_failure: change #[always|never|change] # default: always
     
 install:
   - nuget restore PersistenceMap.Interception.sln

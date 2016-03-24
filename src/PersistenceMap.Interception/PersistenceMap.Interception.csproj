@@ -35,8 +35,12 @@
     <DocumentationFile>bin\Release\PersistenceMap.Interception.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PersistenceMap, Version=0.5.2.0, Culture=neutral, PublicKeyToken=086b003f83e44453, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\PersistenceMap.0.5.3-RC01\lib\net45\PersistenceMap.dll</HintPath>
+    <Reference Include="PersistenceMap, Version=0.5.3.0, Culture=neutral, PublicKeyToken=086b003f83e44453, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PersistenceMap.0.5.3-RC03\lib\net45\PersistenceMap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PersistenceMap.SqlServer, Version=0.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PersistenceMap.0.5.3-RC03\lib\net45\PersistenceMap.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -48,6 +52,7 @@
     <Compile Include="DataReaderInterceptor.cs" />
     <Compile Include="DynamicProperties.cs" />
     <Compile Include="InterceptorExtensions.cs" />
+    <Compile Include="IReaderInterceptor.cs" />
     <Compile Include="MockedConnectionProvider.cs" />
     <Compile Include="MockedDataReader.cs" />
     <Compile Include="MockedQueryKernel.cs" />
@@ -56,6 +61,7 @@
     <Compile Include="..\GlobalAssemblyInfo.cs">
       <Link>Properties\GlobalAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Result.cs" />
     <None Include="..\PersistenceMap.snk">
       <Link>Properties\PersistenceMap.snk</Link>
     </None>
